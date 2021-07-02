@@ -1,0 +1,1 @@
+for i in `ls ./dense_matrix/headered/*`;do `nohup perl /lustre/user/liclab/ganjb/tools/crane-nature-2015-master/scripts/matrix2insulation.pl -i $i -is 1000000 -ids 200000 -im mean -bmoe 3 -nt 0.1 -v > ${i##*/}.log 2>&1 &`;done
