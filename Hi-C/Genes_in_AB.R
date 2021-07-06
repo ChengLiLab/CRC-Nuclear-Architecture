@@ -1,4 +1,4 @@
-###analysis the expression changes in AB associated genes
+###analysis the expression changes in nuclear achitecture associated genes (Take AB compartment as an example)
 
 setwd("/lustre/user/liclab/ganjb/Projects/colon_cancer/HiC/matrix_40k/AB_Compartments")
 library(data.table)
